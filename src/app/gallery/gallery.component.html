@@ -1,0 +1,11 @@
+<app-navbar></app-navbar>
+<div class="gallery--container">
+  <div class="gallery--container">
+    <div class="gallery-image--container">
+      <div class="gallery-image" *ngFor="let image of image" (click)="navigateTo('/image_details' , image.id)">
+        <img class="gallery-image-item" src="{{image.url}}" alt="">
+      </div>
+    </div>
+    <button mat-button class="gallery-upload-button" (click)="openDialog()">Upload</button>
+  </div>
+</div>

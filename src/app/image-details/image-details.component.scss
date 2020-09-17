@@ -1,0 +1,31 @@
+.image-details-content--container {
+  display: flex;
+  align-items: center;
+  margin: 1rem 3rem;
+  border-radius: 1rem;
+}
+
+.image-details-back {
+  margin-left: 3rem;
+}
+
+.image-details-image-item {
+  height: 40rem;
+  padding: 1rem;
+}
+
+.image-details-details {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 3rem 2rem;
+}
+
+.image-details-title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.image-details-details-text {
+  font-size: 1rem;
+}

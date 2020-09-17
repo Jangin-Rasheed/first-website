@@ -3,13 +3,14 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0.5rem;
-  margin: 1rem 0;
+  padding: 1.5rem 0;
+  margin: 0 5rem 1.5rem 5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, .25);
 }
 
 .navbar-brand-text {
   letter-spacing: 0.3rem !important;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'Courgette', cursive;
   cursor: pointer;
 }
@@ -18,7 +19,6 @@
   height: 1.5rem;
   width: 1.5rem;
   cursor: pointer;
-  margin: 0 0.25rem;
 }
 
 .navbar-right {
@@ -29,5 +29,9 @@
 
 .navbar-right-text {
   cursor: pointer;
-  margin-left: 1rem;
+}
+
+.navbar-link {
+  cursor: pointer;
+  margin: 0 0.5rem;
 }

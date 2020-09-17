@@ -1,0 +1,21 @@
+.gallery-image--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.gallery-image-item {
+  width: 20rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, .25);
+}
+
+.gallery--container {
+}
+
+
+.gallery-upload-button {
+}

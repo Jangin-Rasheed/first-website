@@ -1,0 +1,14 @@
+.contact--container {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  padding: 2rem;
+  font-size: 1.5rem;
+  width: 70rem;
+  height: 40rem;
+  background-color: aliceblue;
+}
+
+.contact-item {
+  margin: 1rem;
+}

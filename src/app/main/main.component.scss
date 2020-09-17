@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
   height: 100vh;
 }
 
@@ -15,19 +14,21 @@
   height: 2.5rem;
   width: 2.5rem;
   margin: 0.5rem;
+  border-radius: 50%;
 }
 
 .cover-brand-text {
   letter-spacing: 0.5rem !important;
   text-shadow: 2px 2px 8px #780000;
-  margin: 5rem 0 3rem 0;
+  margin: 7rem 0 3rem 0;
   font-size: 1.5rem;
   font-family: 'Courgette', cursive;
 }
 
 .cover-text-text {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   cursor: pointer;
   text-decoration: underline;
+  color: black;
 }
